@@ -23,9 +23,10 @@ figure.matriz {
     margin: 0 auto;
 }
 
-figure.familia {
+figure.familia-tupfeln {
     width: 275px;
     float: right;
+    margin-left: 15px;
 }
 
 figure img {
