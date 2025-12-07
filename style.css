@@ -18,3 +18,18 @@ figure {
     color: lightgrey            
 }
 
+figure.matriz {
+    width: 550px;
+    margin: 0 auto;
+}
+
+figure.familia {
+    width: 275px;
+    float: right;
+}
+
+figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
