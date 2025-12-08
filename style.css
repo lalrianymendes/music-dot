@@ -44,3 +44,11 @@ figure img {
     height: auto;
     display: block;
 }
+.titulo-principal {
+    padding: 10px;
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    margin-top: 10px;
+    border: none;
+    font-size: 35px;
+}
