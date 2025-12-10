@@ -36,7 +36,8 @@ figure.matriz {
 figure.familia-tupfeln {
     width: 275px;
     float: right;
-    margin: 15px;;
+    margin: 0px 10px 10px;
+    text-align: right;
 }
 
 figure img {
