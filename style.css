@@ -53,3 +53,20 @@ figure img {
     border: none;
     font-size: 35px;
 }
+address p {
+    margin: 0;
+    color: #3D3D3D;
+    font-size: 20px;
+}
+.horarioCorrespondência {
+    margin: 0;
+    color: #3D3D3D;
+    font-size: 15px;
+}
+.horarioTelefones  {
+    margin: 0;
+    color: #3D3D3D;
+    font-size: 15px;
+}
+
+
