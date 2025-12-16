@@ -1,0 +1,23 @@
+.cabecalho {
+    background-color: #2D5377;
+    color: #FFF;
+    padding: 15px;
+}
+
+.cabecalho img {
+    width: 180px;
+    display: block;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.cabecalho ul {
+    margin-top: 8px;
+}
+
+.cabecalho li {
+    margin-bottom: 4px;
+}
+
+
+
