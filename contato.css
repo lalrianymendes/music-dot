@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Centralização do conteúdo */
+main {
+    width: 600px;
+    margin: 50px auto;
+}
+
+h1 {
+    background-color: #e6f2f7;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+    width: 100%;
+}
+
+/* Estilo para cada campo (input, textarea) */
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; /* espaçamento de 10px entre os campos */
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 500px;   /* largura de 500px */
+    height: 30px;   /* altura de 30px */
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 300px;  /* altura de 300px para "Deixe sua opinião" */
+    resize: none;
+}
+
+/* Botão */
+button {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #333;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
