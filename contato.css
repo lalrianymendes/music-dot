@@ -5,49 +5,58 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Cabeçalho */
+.cabecalho {
+    width: 900px;          /* mesma largura do conteúdo */
+    margin: 0 auto;        /* centraliza */
+    padding: 20px 0;
+}
 
-main {
-    width: 600px;
-    margin: 50px auto;
+.cabecalho img {
+    height: 60px;
+}
+
+
+/* Conteúdo principal */
+.conteudo {
+    width: 900px;
+    margin: 0 auto;
 }
 
 h1 {
     background-color: #e6f2f7;
     padding: 10px;
     font-size: 24px;
-    text-align: center;
     margin-bottom: 20px;
 }
 
-
-form {
-    width: 100%;
-}
-
-
-.campo {
+/* Linhas do formulário */
+.linha {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 10px; 
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-label {
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input,
-textarea {
-    width: 500px;   /* largura de 500px */
-    height: 30px;   /* altura de 30px */
+/* Campos */
+input {
+    width: 500px;
+    height: 30px;
     padding: 5px;
     border: 1px solid #999;
-    border-radius: 4px;
 }
 
 textarea {
-    height: 300px;  /* altura de 300px para "Deixe sua opinião" */
+    width: 500px;
+    height: 300px;
+    padding: 5px;
+    border: 1px solid #999;
     resize: none;
+}
+
+/* Labels */
+label {
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 /* Botão */
@@ -57,10 +66,6 @@ button {
     background-color: white;
     color: black;
     font-weight: bold;
-    border: 1px solid #333;
+    border: 1px solid black;
     cursor: pointer;
-    display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
